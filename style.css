@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Arsenal:400,700');
+
+html {
+    font-family: 'Arsenal', sans-serif;
+}
+body {
+    margin: 0;
+    background-color: royalblue;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 3em;
+    color: seashell;
+    line-height: 0.9;
+}
+h1 span {
+    font-size: 3em
+}
+nav {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+nav a{
+    margin: .5em;
+    padding: .75em;
+    background-color: seashell;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    border-radius: 1.5em;
+}
+
+#map {
+    height: 560px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+   }
